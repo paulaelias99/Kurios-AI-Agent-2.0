@@ -15,27 +15,40 @@ def extraer_duracion(texto):
         return int(match.group(1))
     return None
 
-def buscar_modulos_relevantes(cursos, pedido):
-    pedido = pedido.lower()
-    modulos = []
-
-    # Extraer nombres de cursos mencionados explícitamente
-    cursos_mencionados = []
-    for curso in cursos:
-        nombre_curso = curso["nombre"].lower()
-        if nombre_curso in pedido:
-            cursos_mencionados.append(nombre_curso)
+def buscar_modulos_relevantes(cursos, user_input):
+    resultados = []
 
     for curso in cursos:
-        nombre_curso = curso["nombre"].lower()
+        if not isinstance(curso, dict):
+            continue  # Ignora si por error hay strings u otros tipos
 
-        if nombre_curso in cursos_mencionados:
-            # Si el curso fue mencionado explícitamente, incluimos todos los módulos
-            for semana in curso["programa"]:
-                for modulo in semana["modulos"]:
-                    modulos.append(modulo)
+        nombre_curso = curso.get("nombre", "").lower()
+        if user_input.lower() in nombre_curso:
+            resultados.append({
+                "curso": curso["nombre"],
+                "match": "Nombre del curso"
+            })
 
-    return modulos
+        for semana in curso.get("semanas", []):
+            for modulo in semana.get("modulos", []):
+                titulo_modulo = modulo.get("titulo", "").lower()
+                if user_input.lower() in titulo_modulo:
+                    resultados.append({
+                        "curso": curso["nombre"],
+                        "modulo": modulo["titulo"],
+                        "match": "Título del módulo"
+                    })
+
+                for subtema in modulo.get("subtemas", []):
+                    if user_input.lower() in subtema.lower():
+                        resultados.append({
+                            "curso": curso["nombre"],
+                            "modulo": modulo["titulo"],
+                            "subtema": subtema,
+                            "match": "Subtema"
+                        })
+
+    return resultados
 
 def generar_markdown(modulos, semanas_max):
     md = "# Curso Personalizado\n\n"
