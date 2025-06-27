@@ -1,0 +1,322 @@
+{
+  "cursos": [
+    {
+      "nombre": "Growth 101",
+      "duracion_total": "2 semanas; 5 horas en total",
+      "semanas": [
+        {
+          "semana": 1,
+          "modulos": [
+            {
+              "titulo": "Introducción a Growth",
+              "subtemas": [
+                "¿Qué es growth?",
+                "Cuándo implementar"
+              ]
+            },
+            {
+              "titulo": "Framework de Growth",
+              "subtemas": [
+                "North star metric",
+                "Growth levers y sublevers (aha moment)",
+                "Funnel"
+              ]
+            },
+            {
+              "titulo": "Frameworks de Problem Solving y Priorización",
+              "subtemas": []
+            },
+            {
+              "titulo": "Introducción a Retention",
+              "subtemas": [
+                "Etapas de Retention",
+                "Cómo mejorarla"
+              ]
+            },
+            {
+              "titulo": "Introducción a Conversion",
+              "subtemas": [
+                "Fricción",
+                "Fórmulas",
+                "Cómo mejorarla"
+              ]
+            }
+          ]
+        },
+        {
+          "semana": 2,
+          "modulos": [
+            {
+              "titulo": "Introducción a Acquisition",
+              "subtemas": [
+                "Cómo adquirir usuarios",
+                "Canales de adquisición",
+                "Evaluación de canales"
+              ]
+            },
+            {
+              "titulo": "Canales orgánicos",
+              "subtemas": []
+            },
+            {
+              "titulo": "Canales pagos",
+              "subtemas": []
+            },
+            {
+              "titulo": "Landing pages",
+              "subtemas": []
+            },
+            {
+              "titulo": "Experimentación y Growth loops",
+              "subtemas": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Product 101",
+      "duracion_total": "2 semanas; 5 horas en total",
+      "semanas": [
+        {
+          "semana": 1,
+          "modulos": [
+            {
+              "titulo": "Qué hace un PM",
+              "subtemas": [
+                "Qué es Product Management",
+                "Rol y responsabilidades",
+                "Tipos de PMs"
+              ]
+            },
+            {
+              "titulo": "Soft skills clave para un PM",
+              "subtemas": [
+                "Comunicación",
+                "Negociación",
+                "Pensamiento estratégico"
+              ]
+            },
+            {
+              "titulo": "Proceso de desarrollo de producto",
+              "subtemas": []
+            },
+            {
+              "titulo": "Design Thinking",
+              "subtemas": [
+                "Empatizar",
+                "Definir",
+                "Idear",
+                "Prototipar",
+                "Testear"
+              ]
+            }
+          ]
+        },
+        {
+          "semana": 2,
+          "modulos": [
+            {
+              "titulo": "Métricas de producto",
+              "subtemas": [
+                "DAU/WAU/MAU",
+                "Retención",
+                "Engagement"
+              ]
+            },
+            {
+              "titulo": "Discovery y validación de ideas",
+              "subtemas": [
+                "Customer interviews",
+                "MVP",
+                "Experimentación"
+              ]
+            },
+            {
+              "titulo": "Crecimiento de producto",
+              "subtemas": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Product Marketing",
+      "duracion_total": "2 semanas; 5 horas en total",
+      "semanas": [
+        {
+          "semana": 1,
+          "modulos": [
+            {
+              "titulo": "Introducción a Product Marketing",
+              "subtemas": [
+                "Qué hace un Product Marketer",
+                "Diferencias con otros roles"
+              ]
+            },
+            {
+              "titulo": "Investigación de mercado",
+              "subtemas": [
+                "Customer personas",
+                "Customer journey",
+                "Insights"
+              ]
+            },
+            {
+              "titulo": "Propuesta de valor",
+              "subtemas": [
+                "Cómo crearla",
+                "Testeo y validación"
+              ]
+            }
+          ]
+        },
+        {
+          "semana": 2,
+          "modulos": [
+            {
+              "titulo": "Go to market strategy",
+              "subtemas": [
+                "Canales",
+                "Mensajes",
+                "Stakeholders"
+              ]
+            },
+            {
+              "titulo": "Medición y mejora continua",
+              "subtemas": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Data 101",
+      "duracion_total": "2 semanas; 5 horas en total",
+      "semanas": [
+        {
+          "semana": 1,
+          "modulos": [
+            {
+              "titulo": "Cultura de decisiones con data",
+              "subtemas": []
+            },
+            {
+              "titulo": "Tipos de análisis",
+              "subtemas": [
+                "Descriptivo",
+                "Diagnóstico",
+                "Predictivo",
+                "Prescriptivo"
+              ]
+            },
+            {
+              "titulo": "Tipos de métricas",
+              "subtemas": []
+            }
+          ]
+        },
+        {
+          "semana": 2,
+          "modulos": [
+            {
+              "titulo": "Visualización y storytelling con data",
+              "subtemas": []
+            },
+            {
+              "titulo": "Errores comunes",
+              "subtemas": []
+            },
+            {
+              "titulo": "Frameworks de análisis",
+              "subtemas": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "UX Research",
+      "duracion_total": "2 semanas; 5 horas en total",
+      "semanas": [
+        {
+          "semana": 1,
+          "modulos": [
+            {
+              "titulo": "Qué es UX Research",
+              "subtemas": []
+            },
+            {
+              "titulo": "Tipos de investigación",
+              "subtemas": [
+                "Cualitativa",
+                "Cuantitativa"
+              ]
+            },
+            {
+              "titulo": "Investigación en el proceso de diseño",
+              "subtemas": []
+            }
+          ]
+        },
+        {
+          "semana": 2,
+          "modulos": [
+            {
+              "titulo": "Cómo hacer entrevistas",
+              "subtemas": []
+            },
+            {
+              "titulo": "Testeo de usabilidad",
+              "subtemas": []
+            },
+            {
+              "titulo": "Síntesis de resultados",
+              "subtemas": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "No Code",
+      "duracion_total": "2 semanas; 5 horas en total",
+      "semanas": [
+        {
+          "semana": 1,
+          "modulos": [
+            {
+              "titulo": "Introducción a No Code",
+              "subtemas": []
+            },
+            {
+              "titulo": "Herramientas principales",
+              "subtemas": [
+                "Automatización",
+                "Bases de datos",
+                "Landing pages"
+              ]
+            },
+            {
+              "titulo": "Automatización de procesos",
+              "subtemas": []
+            }
+          ]
+        },
+        {
+          "semana": 2,
+          "modulos": [
+            {
+              "titulo": "Construcción de prototipos",
+              "subtemas": []
+            },
+            {
+              "titulo": "Casos de uso",
+              "subtemas": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
