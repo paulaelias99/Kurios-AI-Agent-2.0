@@ -5,7 +5,7 @@ import re
 # Cargar cursos base
 @st.cache_data
 def load_courses():
-    with open("kurios_cursos.json", "r", encoding="utf-8") as f:
+   with open("cursos_kurios.json", "r", encoding="utf-8") as f:
         return json.load(f)
 
 # Extraer semanas solicitadas (si el usuario dice "2 semanas", etc.)
